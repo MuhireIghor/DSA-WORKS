@@ -11,6 +11,12 @@ int main(){
 				num[j]=num[j+1];
 				num[j+1]=temp;
 			}
+			cout<<endl;
+			cout<<"j="<<j<<endl;
+			for(int p=0;p<n;p++){
+				cout<<num[p]<<"\t";
+
+			}
 		}		
 	}
 cout<<"[";
