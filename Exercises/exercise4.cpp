@@ -26,13 +26,17 @@ return 0;
    }
 }
 int main(){
+    int collection[100]{};
 
     for(i=1;i<100;i++){
         for(j=1;j<100;j++){
-            isSquare(i,j);
-            if()
+
+            collection[j] = isSquare(i,j);
+            
         }
+            cout<<sizeof(collection[i])<<endl;
     }
-    
+    int arrLen = sizeof(collection)/sizeof(collection[j]);
+
 }
 
